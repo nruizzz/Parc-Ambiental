@@ -1,0 +1,159 @@
+body {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+line-height: 1.6;  
+background-color: #c7f6d1;
+}
+
+
+header {
+height: 150px;
+background: linear-gradient(rgba(235, 237, 235, 0.85), rgba(21, 57, 17, 0.85)), url('/img/parc_ambiental_mapa.jpg');
+background-size: cover; 
+background-position: center;
+border-radius: 80px;
+padding: 80px 20px;
+text-align: center;
+font-family: "Emilys Candy", serif;
+color: #1a4d26;
+}
+
+
+section {
+padding: 40px 20px;
+padding: 30px;
+margin: 0 auto;
+}
+
+
+h1 {
+color: #2c6b3a;
+}
+
+
+.columnes-text {
+text-align: justify;
+}
+
+
+.columnes3-text {
+text-align: justify;
+}
+
+
+.agraiments-links {
+text-align: center;
+background-color: #ffffff;
+border-radius: 50px;
+padding: 40px;
+}
+
+
+.comarques-rec {
+width: 100%;
+}
+
+
+img {
+align-items: center;
+max-width: 100%;
+height: auto;
+display: block;
+margin: 15px;
+}
+
+
+.video-contenidor {
+position: relative;
+padding-bottom: 35.25%;
+height: 0;
+margin-bottom: 20px;
+}
+
+
+.video-contenidor iframe { 
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
+/* Mòbil petit */
+@media (min-width: 575px) { 
+.columnes3-text {
+column-count: 3;
+column-gap: 30px;
+}
+.columnes-text {
+column-count: 1; 
+}
+}
+
+
+/* Tablet petita */ 
+@media (min-width: 576px) and (max-width: 992px) {
+.columnes3-text {
+column-count: 3;
+column-gap: 30px;
+}
+.columnes-text {
+column-count: 2;
+column-gap: 30px;
+}
+}
+
+
+/* Pc Gran */
+@media (min-width: 992px) {
+.columnes3-text {
+column-count: 3;
+column-gap: 50px;
+column-rule: 1px solid #000000;
+}
+.columnes-text {
+column-count: 2;
+column-gap: 50px;
+column-rule: 1px solid #000000;
+}
+.agraiments-links {
+column-count: 2; 
+column-gap: 50px; 
+column-rule: 1px solid #000000;
+}
+}
+
+
+h2, h3 {
+font-family: "Cookie", cursive;
+font-weight: 350;
+font-style: normal;
+font-size: 35px;
+color: #246a33;
+border-left: 5px solid rgb(78, 171, 103);
+padding-left: 20px;
+}
+
+
+.box {
+border-radius: 50px;
+background: #ffffff;
+padding: 50px;
+}
+
+
+.localitzacio {
+background-color: #ffffff;
+border-radius: 50px;
+padding: 50px;
+}
+
+
+footer {
+background-color:#ffffff;
+color: rgb(0, 0, 0);
+text-align:center;
+padding: 40px;
+padding-bottom: 40px;
+border-radius: 80px;
+}
